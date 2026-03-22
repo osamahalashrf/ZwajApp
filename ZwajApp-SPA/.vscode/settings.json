@@ -1,0 +1,7 @@
+{
+    "js/ts.tsdk.path": "node_modules\\typescript\\lib",
+    "angular.ngdk": false,
+    "angular.plugin.enable": true,
+    "angular.typeChecking": false,
+    "angular.enable-ivy": false
+}
