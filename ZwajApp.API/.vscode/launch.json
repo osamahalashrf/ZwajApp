@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/ZwajApp.API/bin/Debug/net6.0/ZwajApp.API.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ZwajApp.API",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart",
+            "launchBrowser": {
+                "enabled": false,
+                "args": "${auto-detect-url}",
+                "windows": {
+                    "command": "cmd.exe",
+                    "args": "/C start ${auto-detect-url}"
+                },
+                "osx": {
+                    "command": "open"
+                },
+                "linux": {
+                    "command": "xdg-open"
+                }
+            },
+            // Enable launching the browser by setting "serverReadyAction" to open on the default port of your application.
+            // Depending on your application, you might need to adjust the port and/or action.
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            // Configure source file mapping if the sources are not under the workspace folder.
+            // "sourceFileMap": {
+            //     "/Views": "${workspaceFolder}/Views"
+            // }
+        }
+        
+    ]
+}
